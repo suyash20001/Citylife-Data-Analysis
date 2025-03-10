@@ -79,8 +79,8 @@ To meet this goal, we developed a **Power BI dashboard** that provides:
 ## **📂 Project Files**  
 | File Name                        | Description |
 |----------------------------------|-------------|
-| `data/CityLife data.xlsx`        | Raw dataset containing sales, advisors, and products |
-| `reports/Final Project City Life 360.pbix` | Power BI dashboard with all visualizations and analysis |
+| `CityLife data.xlsx`        | Raw dataset containing sales, advisors, and products |
+| `Final Project City Life 360.pbix` | Power BI dashboard with all visualizations and analysis |
 
 ---
 
