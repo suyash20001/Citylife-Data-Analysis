@@ -1,8 +1,7 @@
 # 📊 CityLife 360° Power BI Dashboard
 #### *A Data-Driven Approach to Advisor & Product Performance Analysis*
 
----
-# 📊 Insurance & Wealth Sales Dashboard  
+--- 
 
 ## 🎯 Project Overview  
 This project provides a **comprehensive analysis of insurance and wealth management sales**, focusing on **advisor performance, product sales trends, risk levels, withdrawals and regional distribution**. The dashboard is built in **Power BI**, using interactive visualizations to help stakeholders make data-driven decisions.  
