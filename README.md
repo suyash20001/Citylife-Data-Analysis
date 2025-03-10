@@ -71,7 +71,7 @@ The dataset consists of **three primary raw data sheets**:
 ![Wealth Dashboard](Wealth.png)
 
 **Executive Summary Page**  
-![Executive Summary](Executive Summary.png)
+![Executive Summary](Executive_Summary.png)
  
 
 ---
