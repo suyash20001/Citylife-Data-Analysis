@@ -87,7 +87,7 @@ To meet this goal, we developed a **Power BI dashboard** that provides:
 ## **🚀 Setup & Usage**  
 1. **Clone this repository**:
    ```sh
-   git clone https://github.com/YOUR-USERNAME/CityLife-PowerBI.git
+   git clone https://github.com/suyash20001/Citylife-Data-Analysis.git
    ```
 2. **Open the Power BI file**:  
    - `Final Project City Life 360.pbix` in **Power BI Desktop**.  
