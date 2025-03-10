@@ -2,98 +2,116 @@
 #### *A Data-Driven Approach to Advisor & Product Performance Analysis*
 
 ---
+# 📊 Insurance & Wealth Sales Dashboard  
 
-## **🌍 Problem Statement**
-CityLife, a leading insurance company, aims to **gain a 360-degree view of its Wealth & Insurance business** to improve decision-making.  
-The business leadership requested a **dashboard that provides insights into advisor performance and product sales trends** to help drive **growth, optimize product strategies, and enhance customer experience**.
+## 🎯 Project Overview  
+This project provides a **comprehensive analysis of insurance and wealth management sales**, focusing on **advisor performance, product sales trends, risk levels, withdrawals and regional distribution**. The dashboard is built in **Power BI**, using interactive visualizations to help stakeholders make data-driven decisions.  
 
-To meet this goal, we developed a **Power BI dashboard** that provides:
-- **Advisor Performance Metrics** (Regional comparisons, top/bottom performers)
-- **Product Performance Analysis** (Sales trends, customer demand, and profitability)
-- **Overall Business Overview** (Sales, Withdrawals, and Net Sales insights)
+## 📁 Dataset Overview  
+The dataset consists of **three primary raw data sheets**:  
 
----
+### **1️⃣ OS Sales Sheet**  
+- Contains **all sales transactions** across **insurance** and **wealth management** products.  
+- Includes **sales amount, withdrawals, contract type and region**.  
+- Tracks **time-based metrics** (year, month) for trend analysis.  
 
-## **📌 Project Requirements**
-1. **Data Sources**  
-   - Excel file (`CityLife data.xlsx`) containing raw sales, advisor, and product data.  
-2. **Dashboard Expectations**  
-   - A **comprehensive overview** of Wealth & Insurance business.  
-   - Breakdown of **advisor performance by region and individual performance**.  
-   - Insights into **product sales, customer preferences, and profitability**.  
-   - Ability to **filter data dynamically** for better decision-making.  
-3. **Technology Used**  
-   - **Power BI** (Data visualization & modeling)  
-   - **Excel** (Data preprocessing & storage)  
+### **2️⃣ Product Sheet**  
+- List of all **insurance and wealth products** with detailed attributes.  
+- Categorized into **Insurance (Car, House, Life)** and **Wealth Products (Mutual Funds, Retirement, Stocks)**.  
+- Includes **risk level classification** (Low, Moderate, High, Variable).  
 
----
-
-## **🛠️ Steps Done (Methodology)**  
-### **🔹 Step 1: Data Collection & Preparation**  
-- Loaded the **Excel dataset** into Power BI.  
-- Checked **data consistency** and performed **data cleaning** (handling missing values, standardizing formats).  
-- Established **relationships** between key tables (Sales, Advisors, Products).  
-
-### **🔹 Step 2: Data Modeling & DAX Calculations**  
-- Created **calculated columns & measures** to compute:
-  - **Total Sales**
-  - **Total Withdrawals**
-  - **Net Sales** (`Sales - Withdrawals`)
-  - **Advisor Performance Metrics**  
-- Implemented **DAX measures** for dynamic analysis.  
-
-### **🔹 Step 3: Dashboard Design & Visualization**  
-- Designed **three key pages**:
-  1. **Company Overview** – High-level insights (Total Sales, Net Sales, Withdrawals).  
-  2. **Advisor Performance** – Top-performing advisors, regional comparisons.  
-  3. **Product Analysis** – Best-selling products, profitability insights.  
-- Added **slicers & filters** for interactive analysis.  
-
-### **🔹 Step 4: Performance Optimization & Finalization**  
-- Optimized **DAX queries** for faster report loading.  
-- Ensured **user-friendly navigation** with clear KPIs and trends.  
-- Validated insights with stakeholders.  
+### **3️⃣ Advisor Sheet**  
+- Contains information about **advisors handling sales transactions**.  
+- Includes **advisor ID, name, assigned region, and performance metrics**.  
+- Used for analyzing **individual advisor contributions** to sales and withdrawals.  
 
 ---
 
-## **📊 Key Insights from the Dashboard**  
-### ✅ **1. Advisor Performance Insights**  
-- Certain **advisors in specific regions outperform others**, highlighting areas where training or hiring could be improved.  
-- **Top 10 advisors** contribute to a significant portion of overall sales.  
+## 📊 Dashboard Structure & Features  
 
-### ✅ **2. Product Sales Trends**  
-- **Some products consistently generate high revenue**, while others have low adoption rates.  
-- Product demand varies **seasonally**, impacting profitability and marketing strategies.  
-
-### ✅ **3. Sales & Withdrawals Breakdown**  
-- **High withdrawal rates** in certain regions indicate **customer dissatisfaction** or **policy lapses**.  
-- **Net Sales trends** reveal which business areas are profitable vs. underperforming.  
-
-### ✅ **4. Data-Driven Business Growth Opportunities**  
-- Identifying **low-performing advisors** can lead to **targeted performance improvement programs**.  
-- Focusing on **best-selling products** can help optimize inventory and marketing.  
-- Reducing withdrawal rates can **enhance customer retention strategies**.  
+### **1️⃣ Insurance Sales Page**  
+📌 **Total Sales & Year-over-Year (YoY) Growth** for insurance products**.  
+📌 **Breakdown by Risk Level** (Low, Moderate, Variable)**.  
+📌 **Withdrawals vs. New Sales** trend analysis**.  
+📌 **Top Performing Advisors in Insurance Sales**.  
+📌 **State-wise sales performance** across different regions**.  
 
 ---
 
-## **📂 Project Files**  
-| File Name                        | Description |
-|----------------------------------|-------------|
-| `CityLife data.xlsx`        | Raw dataset containing sales, advisors, and products |
-| `Final Project City Life 360.pbix` | Power BI dashboard with all visualizations and analysis |
+### **2️⃣ Wealth Management Sales Page**  
+📌 **Total Sales & Withdrawals Breakdown by Wealth Product Type**.  
+📌 **Net Sales Calculation for Different Wealth Categories**.  
+📌 **Advisor Performance in Wealth Management Sales**.    
+📌 **Yearly Trend of Wealth Withdrawals & Net Contributions**. 
+
+🔍 **Tile Selection Slicer Used:**  
+✅ **Sales** – Displays total wealth management sales.  
+✅ **Net Sales** – Shows total sales after accounting for withdrawals.  
+✅ **Withdrawals** – Highlights the impact of withdrawals on financial performance.  
 
 ---
 
-## **🚀 Setup & Usage**  
-1. **Clone this repository**:
-   ```sh
-   git clone https://github.com/suyash20001/Citylife-Data-Analysis.git
-   ```
-2. **Open the Power BI file**:  
-   - `Final Project City Life 360.pbix` in **Power BI Desktop**.  
-   - Ensure `CityLife data.xlsx` is properly linked.  
-3. **Explore the Dashboard**:
-   - Use filters to **analyze Advisor & Product performance dynamically**.  
-   - Drill down into **Sales, Withdrawals, and Net Sales insights**.  
+### **3️⃣ Executive Summary Page**  
+📌 **Total Revenue, Withdrawals, and Net Sales across all business lines**.   
+📌 **Sales & Net Contributionby Risk level**.  
+📌 **Top-Performing Insurance & Wealth Products**.  
+📌 **State-Wise Sales Performance Analysis**.  
 
+🔍 **Tile Selection Slicer Used:**  
+✅ **Sales** – Displays overall sales revenue.  
+✅ **Net Sales** – Highlights sales after adjusting for withdrawals.  
+✅ **Withdrawals** – Shows withdrawal trends across all business lines.  
+
+---
+
+## 📸 Dashboard Screenshot  
+![Dashboard Screenshot](dashboard.png)  
+
+---
+
+## 🚀 Tools & Technologies Used  
+- **Power BI** (Data Visualization & Dashboarding)  
+- **DAX (Data Analysis Expressions)** for calculated measures & KPIs  
+- **Power Query** for Data Cleaning & Transformation  
+- **Excel** for preliminary data exploration  
+
+---
+
+## 📌 How to View the Dashboard  
+1. Download the **`Insurance_Wealth_Sales_Dashboard.pbix`** file.  
+2. Open it in **Power BI Desktop**.  
+3. Navigate through different pages (**Insurance, Wealth, and Executive Summary**) to explore insights.  
+4. Use **tile selection slicers** on the **Wealth & Executive Summary** pages to filter data dynamically.  
+
+---
+
+## 🛠️ Data Analysis Process  
+
+### **1️⃣ Data Cleaning & Preparation**  
+✔ Removed **duplicate & missing records**.  
+✔ Standardized **date formats** for consistency.  
+✔ Created **calculated columns** for **YoY Growth, Net Sales, and Risk Levels**.  
+✔ Merged **OS Sales, Product, and Advisor datasets** for a unified view.  
+
+### **2️⃣ Exploratory Data Analysis (EDA)**  
+✔ Identified **top-selling insurance & wealth products**.  
+✔ Analyzed **regional sales performance** and market trends.  
+✔ Evaluated **advisor performance & efficiency gaps**.  
+✔ Compared **withdrawals vs. net sales trends**.  
+
+### **3️⃣ Visualization & Dashboard Creation**  
+✔ Designed **interactive dashboards** in **Power BI** with dynamic visualizations.  
+✔ Used **bar charts, treemaps, and KPI cards** to highlight key business metrics.  
+✔ Built a **high-level executive summary** for decision-makers.  
+
+---
+
+## 📊 **Key Business Insights**  
+✅ **Life Insurance & Mutual Funds** are the **top-selling products**.  
+✅ **Withdrawals have increased significantly**, impacting net sales.  
+✅ **High-risk insurance plans** contribute to **lower sales growth**.  
+✅ **New York & Indiana** lead in sales, while some states show **declining performance**.  
+✅ **Some advisors consistently outperform others**, highlighting gaps in sales strategies.  
+
+---
 
