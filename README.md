@@ -64,7 +64,15 @@ The dataset consists of **three primary raw data sheets**:
 ---
 
 ## 📸 Dashboard Screenshot  
-![Dashboard Screenshot](dashboard.png)  
+**Insurance Sales Page**  
+![Insurance Dashboard](Insurance.png)
+
+**Wealth Management Sales Page**  
+![Wealth Dashboard](Wealth.png)
+
+**Executive Summary Page**  
+![Executive Summary](Executive Summary.png)
+ 
 
 ---
 
